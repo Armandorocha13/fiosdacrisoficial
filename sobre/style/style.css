@@ -1,0 +1,131 @@
+/* Reset básico */
+body,
+h1,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Krona One', sans-serif;
+    line-height: 1.6;
+    background-color: #FFE6BD;
+z
+}
+
+/* NavBar */
+.navBar {
+    background-color: #643c23;
+    color: white;
+    padding: 20px 0;
+    position: fix;
+}
+
+.navBar-setup {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navBar-setup h1 {
+    font-size: 22px;
+    margin-left: -40px;
+    color: #a3897b;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    color: #a3897b;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #FFF
+    ;
+}
+
+/* mains text*/
+
+.sobre-section{
+    width: 437px;
+    height: 76px;
+    position: absolute;
+    padding-top: 165px;
+    color: #260016;
+    font-family: "Vollkorn", serif;
+    font-size: 18px;
+    line-height: 30px;
+    word-wrap: break-word;
+    left: 34px;
+    top: 0;
+}
+.main-image {
+    width: 570px;
+    height: 560px;
+    border-radius: 324px;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+
+/*responsividade*/
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajustes na NavBar */
+    .navBar-setup {
+        flex-direction: column;
+        align-items: center;
+        padding:  10px;
+    }
+
+    .navBar-setup h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .nav-list {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-item a {
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    /* Ajustes no texto principal */
+    .sobre-section {
+        width: 70%;
+        height: auto;
+        position: static;
+        padding: 20px 60px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    /* Ajustes na imagem principal */
+    .main-image {
+        width: 300px;
+        height: 300px;
+        margin: 20px auto;
+        display: block;
+        border-radius: 150px;
+    }
+}
