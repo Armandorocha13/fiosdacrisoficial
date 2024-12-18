@@ -15,14 +15,13 @@ body {
     font-family: 'Krona One', sans-serif;
     line-height: 1.6;
     background-color: #FFE6BD;
-    body {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Altura total da tela */
     margin: 0; /* Remove as margens do body */
-
 }
+
 h3 {
     font-size: 12px;
     text-align: center;
