@@ -107,6 +107,10 @@ img {
 }
 
 
+h3{
+    width: 60%;
+}
+
 /* Responsividade  */
 
 @media (max-width: 768px) {
