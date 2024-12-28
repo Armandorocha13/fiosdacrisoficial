@@ -448,7 +448,7 @@ button:hover::before {
     /* Botão personalizado */
     .button {
         font-size: 6px;
-        margin: 0 10px;
+        margin: 0 20px;
         
         
     }
