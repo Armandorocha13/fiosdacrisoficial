@@ -162,7 +162,7 @@ h2 {
     align-self: stretch;
     height: 115px;
     padding: 16px;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -436,6 +436,9 @@ button:hover::before {
         font-size: 12px;
     }
 
+    .produto-info{
+        display:none;
+    }
   
 
     .botao-texto {
